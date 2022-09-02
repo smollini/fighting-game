@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+ <div style="position: relative;">
+   <div style="position: absolute; display: flex;width:100%;max-width: 1024px;">
+   <!--playerhealt -->
+   <div style="position: relative; height:30px; width:100%">
+    <div   style="background-color:red; height: 30px;"></div>
+    <div id="playerHealt" style="position: absolute; background: yellow;top: 0;bottom: 0;left: 0;right: 0;"></div>
+</div>
+   <!--timer -->
+   <div id ="timer" style="background-color: orchid; height: 30px;width: 100px;flex-shrink: 0; display: flex;align-items: center;justify-content: center;">10</div>
+   <!--enemyhealt -->
+   <div style="position: relative; height:30px; width:100%">
+      <div   style="background-color:blue; height: 30px;"></div>
+      <div id="enemyHealt" style="position: absolute; background: yellow;top: 0;bottom: 0;left: 0;right: 0;"></div>
+  </div>
+ 
+
+
+  </div>
+  <div id="displayText" style="position: absolute; color:antiquewhite;  align-items: center; justify-content: center;top: 0;right: 0;left: 0;bottom: 0;display: none;"></div>
+  <canvas></canvas>
+</div>
+<script src ="klasy/classes.js"></script>
+ <script src ="index.js"></script>
+</body>
+</html>
